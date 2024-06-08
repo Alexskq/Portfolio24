@@ -8,7 +8,7 @@ My personal Portofolio for 2024
 - ```NextJS```
 - ```TailwindCSS```
 - ```Aceternity UI```
-- ```Sentry```
+- ```Sentry``` for tracking bugs
   
 
 
