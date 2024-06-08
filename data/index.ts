@@ -52,7 +52,7 @@ export const gridItems = [
     id: 5,
     title:
       "Je suis actuellement à la recherche d'une alternance en développement web",
-    description: "The Inside Scoop",
+    description: "The Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -61,7 +61,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Contactez- moi !",
+    title: "Contactez - moi !",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -212,14 +212,17 @@ export const workExperience = [
 export const socialMedia = [
   {
     id: 1,
+    url: "https://github.com/Alexskq",
     img: "/git.svg",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    url: "https://lewagon-alumni.slack.com/team/U053J8Q0Z50",
+    img: "/slack.svg",
   },
   {
     id: 3,
+    url: "https://www.linkedin.com/in/alexzoonekynd",
     img: "/link.svg",
   },
 ];

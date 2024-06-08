@@ -9,16 +9,16 @@ const Approach = () => {
   return (
     <section className="w-ful py-20">
       <h1 className="heading">
-        My <span className="text-purple"> approach</span>
+        Mes<span className="text-purple"> softs skills</span>
       </h1>
       <div
         className="my-20 flex flex-col lg:flex-row items-center justify-center gap4
       "
       >
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          title="Esprit d'équipe & Collaboration"
+          icon={<AceternityIcon order="Team Work" />}
+          description="Travailler en équipe est essentiel, la collaboration sont les clés du succès d'un projet. Mon esprit d'équipe me permet de m'adapter facilement aux dynamiques de groupe et de contribuer de manière positive à l'environnement de travail."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -26,9 +26,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way."
+          title="Communication & Rigeur"
+          icon={<AceternityIcon order="Efficacité" />}
+          description="La communication est la clé de tout projet, partager des idées, résoudre des problèmes ensemble et atteindre des objectifs communs."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -43,9 +43,9 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Developpement & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into coding. From initial sketches to polished code, I keep you updated every step of the way"
+          title="Autonome & Curieux"
+          icon={<AceternityIcon order="💡" />}
+          description="J'aime apprendre de nouvelles choses et je suis toujours prêt à relever de nouveaux défis. Passionné par la technologie et je suis constamment à la recherche de nouvelles façons de m'améliorer."
         >
           <CanvasRevealEffect
             animationSpeed={3}

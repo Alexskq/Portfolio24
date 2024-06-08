@@ -16,16 +16,17 @@ const Footer = () => {
       </div> */}
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]:">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Prêt à discuter pour une{" "}
+          <span className="text-purple">future collaboration </span>
+          ensemble
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+          Contactez-moi et discutons de vos objectifs et de la manière dont je
+          peux vous aider
         </p>
         <a href="mailto:alexzoonekynd@gmail.com">
           <MagicButton
-            title="Let's get in touch"
+            title="Contactez moi"
             icon={<FaLocationArrow />}
             position="right"
           />
@@ -42,7 +43,14 @@ const Footer = () => {
               key={profile.id}
               className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
             >
-              <img src={profile.img} alt={profile.id} width={20} height={20} />
+              <a href={profile.url}>
+                <img
+                  src={profile.img}
+                  alt={profile.id}
+                  width={20}
+                  height={20}
+                />
+              </a>
             </div>
           ))}
         </div>
