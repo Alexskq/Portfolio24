@@ -7,7 +7,7 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 
 const Approach = () => {
   return (
-    <section className="w-ful py-20">
+    <section className="w-ful py-20" id="skills">
       <h1 className="heading">
         Mes<span className="text-purple"> softs skills</span>
       </h1>

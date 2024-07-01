@@ -1,7 +1,7 @@
 export const navItems = [
   { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Projets", link: "#projects" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -108,7 +108,7 @@ export const projects = [
     des: "Une application qui permet de récupérer tous vos passages surligner de vos livres kindle",
     img: "/p3.svg",
     iconLists: ["/rails.svg", "/bstrap.svg", "/pgsql.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    // link: "https://github.com/adrianhajdin/iphone",
   },
 ];
 
