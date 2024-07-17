@@ -37,7 +37,7 @@ const Footer = () => {
         <p className="md:text-base text-sm md:font-normal font-light">
           Copyright © 2024 Alex
         </p>
-        <div className="flex items-center md:gap-3 gap-6">
+        <div className="flex items-center md:gap-3  mt-6 gap-6">
           {socialMedia.map((profile) => (
             <div
               key={profile.id}

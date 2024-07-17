@@ -49,7 +49,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hey, Alex Développeur Fullstack située près de Lille
+            Alex Développeur Fullstack situé près de Lille
           </p>
 
           <a href="#about">

@@ -105,7 +105,7 @@ export const projects = [
   {
     id: 3,
     title: "HighLight Kindle App - En cours",
-    des: "Une application qui permet de récupérer tous vos passages surligner de vos livres kindle",
+    des: "Une application qui permet de récupérer tous les passages surligner de vos livres kindle",
     img: "/p3.svg",
     iconLists: ["/rails.svg", "/bstrap.svg", "/pgsql.svg"],
     // link: "https://github.com/adrianhajdin/iphone",
