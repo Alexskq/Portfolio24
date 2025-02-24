@@ -106,41 +106,15 @@ export const projects = [
   //   title: "HighLight Kindle App - En cours",
   //   des: "Une application qui permet de récupérer tous les passages surligner de vos livres kindle",
   //   img: "/p3.svg",
-  //   iconLists: ["/rails.svg", "/bstrap.svg", "/pgsql.svg"],
-  //   // link: "https://github.com/adrianhajdin/iphone",
+  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+  //   link: "https://portfolio-2-0-smoky.vercel.app/",
   // },
-];
-
-export const testimonials = [
   {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    id: 3,
+    title: "HighLight Kindle App - En cours",
+    des: "Une application qui permet de récupérer tous les passages surligner de vos livres kindle",
+    img: "/p3.svg",
+    iconLists: ["/rails.svg", "/bstrap.svg", "/pgsql.svg"],
   },
 ];
 
@@ -151,30 +125,13 @@ export const companies = [
     img: "/cloud.svg",
     nameImg: "/cloudName.svg",
   },
-  // {
-  //   id: 2,
-  //   name: "appwrite",
-  //   img: "/app.svg",
-  //   nameImg: "/appName.svg",
-  // },
+
   {
     id: 3,
     name: "HOSTINGER",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
-  // {
-  //   id: 4,
-  //   name: "stream",
-  //   img: "/s.svg",
-  //   nameImg: "/streamName.svg",
-  // },
-  // {
-  //   id: 5,
-  //   name: "docker.",
-  //   img: "/dock.svg",
-  //   nameImg: "/dockerName.svg",
-  // },
 ];
 
 export const workExperience = [
