@@ -12,13 +12,13 @@ const Approach = () => {
         Mes<span className="text-purple"> softs skills</span>
       </h1>
       <div
-        className="my-20 flex flex-col lg:flex-row items-center justify-center gap4
+        className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4
       "
       >
         <Card
           title="Esprit d'équipe & Collaboration"
           icon={<AceternityIcon order="Team Work" />}
-          description="Travailler en équipe est essentiel, la collaboration sont les clés du succès d'un projet. Mon esprit d'équipe me permet de m'adapter facilement aux dynamiques de groupe et de contribuer de manière positive à l'environnement de travail."
+          description="Travailler en équipe est essentiel et la collaboration sont les clés du succès d'un projet. Mon esprit d'équipe me permet de m'adapter facilement aux dynamiques de groupe et de contribuer de manière positive à l'environnement de travail."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -45,7 +45,7 @@ const Approach = () => {
         <Card
           title="Autonome & Curieux"
           icon={<AceternityIcon order="💡" />}
-          description="J'aime apprendre de nouvelles choses et je suis toujours prêt à relever de nouveaux défis. Passionné par la technologie et je suis constamment à la recherche de nouvelles façons de m'améliorer."
+          description="Apprendre de nouvelles choses et toujours prêt à relever de nouveaux défis. Passionné par la technologie et je suis constamment à la recherche de nouvelles façons de m'améliorer."
         >
           <CanvasRevealEffect
             animationSpeed={3}

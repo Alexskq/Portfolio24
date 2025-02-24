@@ -1,15 +1,11 @@
 "use client";
-import { cn } from "@/utils/cn";
-import { BackgroundGradientAnimation } from "./GradientBg";
-import Grid from "../Grid";
-import { GlobeDemo } from "./GridGlobe";
-import { div } from "three/examples/jsm/nodes/Nodes.js";
-import { useState } from "react";
-import Lottie from "react-lottie";
 import animationData from "@/data/confetti.json";
-import { render } from "@react-three/fiber";
-import MagicButton from "./MagicButton";
+import { cn } from "@/utils/cn";
+import { useEffect, useState } from "react";
 import { IoCopyOutline } from "react-icons/io5";
+import { BackgroundGradientAnimation } from "./GradientBg";
+import { GlobeDemo } from "./GridGlobe";
+import MagicButton from "./MagicButton";
 
 export const BentoGrid = ({
   className,
@@ -65,11 +61,28 @@ export const BentoGridItem = ({
     },
   };
 
+  // Déplacer handleCopy en dehors de useEffect
   const handleCopy = () => {
     const text = "alexzoonekynd@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
+
+  // Reset copied state après 3 secondes
+  useEffect(() => {
+    if (copied) {
+      const timeout = setTimeout(() => {
+        setCopied(false);
+      }, 3000);
+      return () => clearTimeout(timeout);
+    }
+  }, [copied]);
+
+  // const handleCopy = () => {
+  //   const text = "alexzoonekynd@gmail.com";
+  //   navigator.clipboard.writeText(text);
+  //   setCopied(true);
+  // };
 
   return (
     <div
@@ -173,7 +186,7 @@ export const BentoGridItem = ({
                 }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie
+                {/* <Lottie
                   options={{
                     loop: copied,
                     autoplay: copied,
@@ -184,7 +197,7 @@ export const BentoGridItem = ({
                   }}
                   height={200}
                   width={400}
-                />
+                /> */}
               </div>
 
               <MagicButton

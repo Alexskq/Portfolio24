@@ -50,8 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title:
-      "Je suis actuellement à la recherche d'une alternance en développement web",
+    title: "Développeur Web, Ruby on Rails, ReactJs, NextJS",
     description: "The Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -88,28 +87,28 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Get inspired Today",
-    des: "Un site web pour trouver de l'inspiration et des citations motivantes",
+    title: "Dog Walks",
+    des: "Vous êtes éducateur canin et vous souhaitez organiser les évenements de votre communauté",
     img: "/p1.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/Alexskq/Random-mixed-messages",
+    iconLists: ["/rails.svg", "/tail.svg", "/pgsql.svg", "js.svg"],
+    link: "https://github.com/Alexskq/Dog_Walks",
+  },
+  {
+    id: 3,
+    title: "Divers site vitrine pour des clients",
+    des: "N'hésitez pas à me contacter pour plus d'informations",
+    img: "/p3.svg",
+    iconLists: ["/next.svg", "/tail.svg", "/rails.svg", "js.svg"],
+    // link: "https://portfolio-2-0-smoky.vercel.app/",
   },
   // {
   //   id: 3,
-  //   title: "Mon premier Portfolio",
-  //   des: "Projet de portfolio personnel pour présenter mes compétences et mes projets",
+  //   title: "HighLight Kindle App - En cours",
+  //   des: "Une application qui permet de récupérer tous les passages surligner de vos livres kindle",
   //   img: "/p3.svg",
-  //   iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-  //   link: "https://portfolio-2-0-smoky.vercel.app/",
+  //   iconLists: ["/rails.svg", "/bstrap.svg", "/pgsql.svg"],
+  //   // link: "https://github.com/adrianhajdin/iphone",
   // },
-  {
-    id: 3,
-    title: "HighLight Kindle App - En cours",
-    des: "Une application qui permet de récupérer tous les passages surligner de vos livres kindle",
-    img: "/p3.svg",
-    iconLists: ["/rails.svg", "/bstrap.svg", "/pgsql.svg"],
-    // link: "https://github.com/adrianhajdin/iphone",
-  },
 ];
 
 export const testimonials = [
@@ -181,31 +180,31 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Teacher - Le Wagon",
-    desc: "Dispense des cours de différents concepts de développement web (jan-24 - actuel)",
+    title: "Développeur Web RoR, ReactJs, NextJS",
+    desc: "Focus sur l'expérience utilisateur et les performances",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp4.svg",
   },
   {
     id: 2,
-    title: "Teacher Assistant - Le Wagon",
-    desc: "Aide aux étudiants sur la partie pratique des cours et des projets (oct 23 - jan 24)",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
-  },
-  {
-    id: 3,
-    title: "MyDigitalSchool",
-    desc: "En recherche d'alternance pour septembre 2024",
+    title: "Freelance",
+    desc: "Transforme vos idées en applications web modernes",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
-    title: "En reconversion professionnelle",
-    desc: "",
+    id: 3,
+    title: "Formateur - Le Wagon",
+    desc: "Dispense des cours sur différents concepts de développement web, gestion de projets ",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 4,
+    title: "Assistant - Le Wagon",
+    desc: "Aide aux étudiants sur la partie pratique des cours et des projets - 2023",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp2.svg",
   },
 ];
 
